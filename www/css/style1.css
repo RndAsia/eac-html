@@ -532,6 +532,108 @@ section#vision #filecoin_video {
   margin-top: 5%;
   text-align: center;
 }
+section#intro-contents {
+  font-family: "Nanum Gothic", sans-serif;
+  width: 100%;
+  overflow: hidden; /*background: linear-gradient(to bottom, #003869 50%,#00223e);*/
+  background: url(../img/back01.svg) fixed top;
+  padding-top: 0px;
+  padding-bottom: 150px;
+  background-size: cover;
+}
+section#intro-contents dl {
+  width: 70%;
+  overflow: hidden;
+  /* text-align: center; */
+  margin: 70px auto;
+  color: #ffffff;
+}
+section#intro-contents dl dt {
+  /* text-align: center; */
+  line-height: 1cm;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  word-break: keep-all;
+}
+section#intro-contents div dl dt {
+  /* text-align: center; */
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(255, 255, 154);
+}
+section#intro-contents dl dd {
+  text-align: center;
+}
+section#intro-contents #table {
+  width: 45%;
+  height: auto;
+  margin: 70px auto 0;
+}
+
+section#intro-contents #table img {
+  width: 100%;
+  margin-top: 5%;
+}
+section#intro-contents #table h3 {
+  position: absolute;
+  left: 0px;
+}
+section#intro-contents #filecoin_video {
+  margin-top: 5%;
+  text-align: center;
+}
+section#Background {
+  font-family: "Nanum Gothic", sans-serif;
+  width: 100%;
+  overflow: hidden; /*background: linear-gradient(to bottom, #003869 50%,#00223e);*/
+  background: url(../img/back01.svg) fixed top;
+  padding-top: 0px;
+  padding-bottom: 150px;
+  background-size: cover;
+}
+section#Background dl {
+  width: 70%;
+  overflow: hidden;
+  /* text-align: center; */
+  margin: 70px auto;
+  color: #ffffff;
+}
+section#Background dl dt {
+  /* text-align: center; */
+  line-height: 1cm;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  word-break: keep-all;
+}
+section#Background div dl dt {
+  /* text-align: center; */
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(255, 255, 154);
+}
+section#Background dl dd {
+  text-align: center;
+}
+section#Background #table {
+  width: 45%;
+  height: auto;
+  margin: 70px auto 0;
+}
+
+section#Background #table img {
+  width: 100%;
+  margin-top: 5%;
+}
+section#Background #table h3 {
+  position: absolute;
+  left: 0px;
+}
+section#Background #filecoin_video {
+  margin-top: 5%;
+  text-align: center;
+}
 
 section#Platform {
   font-family: "Nanum Gothic", sans-serif;
