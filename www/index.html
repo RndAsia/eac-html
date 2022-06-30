@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EAC Platform</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/fa_eac.svg" rel="icon">
+  <link href="img/fa_eac.svg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style1.css" rel="stylesheet">
+
+  <script language="Javascript"> 
+    function setCookie( name, value, expiredays ) { 
+        var todayDate = new Date(); 
+            todayDate.setDate( todayDate.getDate() + expiredays ); 
+            document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+        }
+    function closeWin() { 
+        if ( document.notice_form.chkbox.checked ){ 
+            setCookie( "maindiv", "done" , 1 ); 
+        } 
+        document.all['divpop'].style.visibility = "hidden"; 
+    } 
+    //-->  
+    </script> 
+    </head> 
+    <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">  
+    <!-- POPUP --> 
+    <!-- POPUP --> 
+    <div id="divpop" style="position:absolute;left:0px;top:80px;z-index:200;visibility:hidden;"> 
+      <table width=320 height=auto cellpadding=2 cellspacing=0> 
+      <tr> 
+        <td style="border:1px #FFFFFF solid" height=auto align=center bgcolor=white> 
+       <img src="img/EAC_popup2.png" style="height: 900px ">
+           </td> 
+      </tr> 
+      <tr> 
+              <form name="notice_form"> 
+          <td align="center" bgcolor="#ffffff" height=50px> 
+              <input type="checkbox" name="chkbox" value="checkbox">Don't open this popup for today
+              <a href="javascript:closeWin();"><B>[Close]</B></a> 
+          </td> 
+      </tr> 
+              </form> 
+      </table> 
+      </div> 
+    <script language="Javascript"> 
+    cookiedata = document.cookie;    
+    if ( cookiedata.indexOf("maindiv=done") < 0 ){      
+        document.all['divpop'].style.visibility = "visible"; 
+        } 
+        else { 
+            document.all['divpop'].style.visibility = "hidden"; 
+    } 
+    </script>
+</head>
+
+
+</body>
+
+  <!--==========================
+    Header
+  ============================-->
+
+
+
+  <main id="main">
+   <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+          <h1><a href="#intro" class="scrollto"><img src="img/eac_title.svg" alt="img/eac_title.svg" href="img/eac_title.svg"/></a></h1>
+          <!-- 수정할곳 -->
+      </div>
+      <div id="translate" class="" style="">
+          <h1><a href="/index_ko.html"><img src="img/e_flag.png"></a></h1>
+      </div>
+
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#vision">Ecosystem</a></li>
+          <li><a href="#Platform">Platform</a></li>
+          <li style="display: none;"><a href="#solution">Payment</a></li>
+          <li><a href="#Team">Team&Advisor</a></li>
+          <li><a href="#Token">Token economy</a></li>
+          <li><a href="#Roadmap">Roadmap</a></li>
+          <li><a href="#Partner">Partner</a></li>  
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+      
+      <div id="title" class="" >
+        <h1><img src="img/eac_title.svg" alt=""/></h1>
+        <!-- 변경  -->
+        <h2> </h2>
+      </div>
+      <div class="membership" style="display: none;">
+        <div id="button" class=""></div>
+          <a  href="" target="_blanc"><img src="img/wallet_link.png"></a>    
+         </div>
+       </div>
+     
+      <div class="download">
+        <h1 class="total_title" >  </h1>
+        <div id="button" class="">
+          <a  href="lib/wp(en)_eac2.pdf" target="_blanc"><img src="img/wp_down_en.png"></a> 
+         
+
+       </div>
+</section>
+ 
+       
+      
+  </section>
+<!--	  wow fadeInUp-->
+	  
+    <section id="vision">
+
+        <h1 class="total_title" style="display:none;"> File Coin  </h1><br>
+        <div id="table">
+          <img src="img/ecosystem.svg">
+        </div>
+        <dl>
+          <dt>Even though the technology that can help learning has been developed, most of the learning still takes place in offline learning centers, private lessons, or video services such as YouTube. Also in terms of timing, during the lockdown brought on by the Covid-19 pandemic that began in 2020, there was a change in learning trend that learning took place exclusively through video media. </dt>
+        </dl>
+        <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+          <img src="img/eac_ecosystem_en.svg" alt=""/></div>
+
+        <dl>
+          <dt>The first start of this project will be based on K-Culture, which has been popular since the 2000s, and it contains a big plan to expand to 52 countries around the world in line with the growth of the platform. </dt>
+        </dl>  
+        <span class="total_line" style="display: none;" ></span>
+
+              
+        
+       
+
+        <div id="filecoin_video" class="" style="display: none;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rt95gozRIy4" frameborder="0" allow="accelerometer; a utoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+         </div>
+        
+    </section>
+    <section id="Platform">
+
+      <h1 class="total_title" style="display:none;"> File Coin  </h1><br>
+      <div id="table">
+        <img src="img/platform.svg">
+      </div>
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+        <img src="img/eac_platform_en.svg" alt=""/></div>
+      <dl>
+        <dt>In the midst of contactless daily life and the acceleration of digital transformation, the MZ generation is rapidly emerging as a powerful consumer leading global cultural trends.     For the MZ generation, which is the core of participation and virality that values genuine experiences and differences, Korean cultural content can be seen as the very experience itself that they want to follow as it is popular and fun.</dt>
+
+      </dl>
+      
+
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+        <img src="img/eac_platform_1_en.svg" alt=""/></div>
+        <dl>
+          <dt></dt>
+        </dl>
+        
+      
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+        <img src="img/eac_platform_2_en.svg" alt=""/></div>
+      <dl>
+        <dt>         
+        </dt>
+      </dl>
+      <span class="total_line" style="display: none;" ></span>
+
+            
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+        <img src="img/eac_platform_3.svg" alt=""/></div>
+
+        <dl>
+          <dt>The Meta-Economy service layer is a sharing-based, user-based service providing an organic role that breathes life into the platform to enable its own growth.  </dt>
+        </dl>
+        <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+          <img src="img/eac_platform_4.svg" alt=""/></div>
+          <dl>
+            <dt>The core of M-Society is an educational service structure that allows users to learn the concept of a community, i.e. fellowship, through collaboration rather than acting alone.
+            </dt>
+          </dl>
+          <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+            <img src="img/eac_platform_5.svg" alt=""/></div>
+            <dl>
+              <dt>We designed a service layer consisting of a special point system that stimulates the growth, maintenance and development of the platform, and the desire for vigorous development of users active in the platform. 
+              </dt>
+            </dl>
+          <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+            <img src="img/eac_platform_6.svg" alt=""/></div>
+            <dl>
+              <dt>We present a service platform based on cultural education using decentralized blockchain technology to make it a more advanced platform. META-Universe blockchain is designed to use ‘cross chains’ that support key functions in order to promptly establish an ecosystem and minimize trial and error.
+              </dt>
+            </dl>
+            <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+              <img src="img/eac_platform_7.svg" alt=""/></div>    
+              <dl>
+                <dt>It is a wallet that supports the safe storage and transfer of all coins provided on the platform. In addition to basic functions such as transaction and remittance based on the dApp, a platform for coin exchange with other users (P2P) or at the exchange market shall also be provided in v2.0, thereby evolving into MeXchange platform that users can access more easily. (Based on Cross, Chain Contract)
+                </dt>
+              </dl> 
+  </section>
+	  
+    <section id="solution" style="display: none;">
+
+        <h1 class="total_title"style="display:none;"> Platform  </h1><br>ㄴ
+        <div id="table">
+          <img src="img/payment.svg">
+        </div>
+          <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+            <img src="img/" alt=""/></div>
+            <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+              <img src="img/" alt=""/></div>
+  
+
+        <dl>
+          <dt> </dt>
+        </dl>
+           
+        <div id="fileworld_video" class="" style="display: none;">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/rQZJjmPbHwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+            
+    </section>
+    <section id="Team">
+          <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+          <img id="img2" src="img/eac_team_2-5.png" alt="eac_team"/></div>
+          
+
+           
+    
+    </section> 
+    <section id="Token" >
+      <div id="table">
+        <img src="img/token_economy.svg">
+      </div>
+      
+   <dl><dt></dt></dl>
+  
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+          <img src="img/eac_token.svg" alt=""/></div>
+  </section>
+  
+  <section id="Roadmap">
+    <h1 class="total_title" style="display:none;"> File Coin Mining  </h1><br>
+    <div id="table">
+      <img src="img/roadmap.svg">
+    </div>
+    
+    <dl>
+      <dt>
+        </dt>
+    </dl>
+    <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <img src="img/eac_roadmap.svg" alt=""/></div>
+        
+</section>
+<section id="Partner">
+
+  <div id="table">
+    <img src="img/partners.svg">
+  </div>
+              <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                  <div class="team">
+                    <img src="img/1.jpg">
+                  </div>
+                     <div class="team">
+                      <img src="img/2.jpg">
+                     </div>
+                     <div class="team">
+                      <img src="img/3.jpg">
+                     </div>
+                     <div class="team">
+                      <img src="img/4.jpg">
+                    </div>
+                     <div class="team">
+                      <img src="img/5.jpg"></div>
+                      <div class="team">
+                        <img src="img/6.jpg">
+                      </div>
+                     <div class="team">
+                      <img src="img/7.jpg">
+                    </div>
+                    <div class="team">
+                      <img src="img/8.jpg">
+                    </div>
+                    <div class="team">
+                      <img src="img/9.jpg">
+                    </div>
+                    <div class="team">
+                      <img src="img/10.jpg">
+                    </div>
+                    <div class="team">
+                      <img src="img/11.jpg">
+                    </div>
+                    <div class="team">
+                      <img src="img/12.jpg">
+                    </div>   
+                    <div class="team">
+                      <img src="img/13.jpg">
+                    </div> 
+                    <div class="team">
+                      <img src="img/14.jpg">
+                    </div> 
+                    <div class="team">
+                      <img src="img/15.jpg">
+                    </div> 
+                          
+                </div></div>
+      </section>
+  
+
+
+	  
+    <section id="contact">
+
+        <h1 class="total_title"> CONTACT  </h1><br>
+        <span class="total_line"></span>
+        <div id="map" class="box featured wow fadeInUp">
+          <div><h3>EAC Platform</h3>
+            
+      <br><br><h5>HEAD OFFICE</h5>
+      111 SOMERSET ROAD #06-07E 111 SOMERSET SINGAPORE 238164<br><br><br><br>
+      <br><br>
+</div>
+            <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7911120840604!2d103.83510651514537!3d1.300168499051715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1990e8a47437%3A0x56a990c905f0c3e0!2zMTExIFNvbWVyc2V0IFJkLCAjMDYgMDdlIFRyaXBsZU9uZSBTb21lcnNldCwg7Iux6rCA7Y-s66W0IDIzODE2NA!5e0!3m2!1sko!2skr!4v1649986170484!5m2!1sko!2skr" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></iframe></div>
+</div>
+        <p>Copyrightⓒ 2022 EAC Platform.  All Rights Reserved.</p>
+        <p></p> 
+    
+
+
+    </section> 
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+		  
+	
+      
+      
+<!--  <footer id="footer">
+
+  </footer>-->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        </main>
+      
+        
+
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+
+  
+
+</body>
+</html>

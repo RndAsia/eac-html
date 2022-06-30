@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EAC Platform</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/fa_eac.svg" rel="icon">
+  <link href="img/fa_eac.svg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style1.css" rel="stylesheet">
+
+  <script language="Javascript"> 
+    function setCookie( name, value, expiredays ) { 
+        var todayDate = new Date(); 
+            todayDate.setDate( todayDate.getDate() + expiredays ); 
+            document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+        }
+    function closeWin() { 
+        if ( document.notice_form.chkbox.checked ){ 
+            setCookie( "maindiv", "done" , 1 ); 
+        } 
+        document.all['divpop'].style.visibility = "hidden"; 
+    } 
+    //-->  
+    </script> 
+    </head> 
+    <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">  
+   <!-- POPUP --> 
+   <div id="divpop" style="position:absolute;left:0px;top:80px;z-index:200;visibility:hidden;"> 
+    <table width=320 height=auto cellpadding=2 cellspacing=0> 
+    <tr> 
+      <td style="border:1px #FFFFFF solid" height=auto align=center bgcolor=white> 
+      <!--   <a target="blanc" href="https://digifinex.zendesk.com/hc/en-us/articles/5489803055897"> --><img src="img/EAC_popup2.png" style="height: 900px "><!-- </a> -->
+         </td> 
+    </tr> 
+    <tr> 
+            <form name="notice_form"> 
+        <td align="center" bgcolor="#ffffff" height=50px> 
+            <input type="checkbox" name="chkbox" value="checkbox">오늘 하루 이 창을 열지 않음
+            <a href="javascript:closeWin();"><B>[Close]</B></a> 
+        </td> 
+    </tr> 
+            </form> 
+    </table> 
+    </div> 
+    <script language="Javascript"> 
+    cookiedata = document.cookie;    
+    if ( cookiedata.indexOf("maindiv=done") < 0 ){      
+        document.all['divpop'].style.visibility = "visible"; 
+        } 
+        else { 
+            document.all['divpop'].style.visibility = "hidden"; 
+    } 
+    </script>
+</head>
+
+
+</body>
+
+  <!--==========================
+    Header
+  ============================-->
+
+
+
+  <main id="main">
+   <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+          <h1><a href="#intro" class="scrollto"><img src="img/eac_title.svg" alt="img/eac_title.svg" href="img/eac_title.svg"/></a></h1>
+      </div>
+      <div id="translate" class="" style="">
+          <h1><a href="/index.html"><img src="img/k_flag.png"></a></h1>
+      </div>
+
+ 
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#home">Home</a></li>
+          <li><a href="#intro ">Introducion EAC</a></li>
+          <li><a href="#Background">Background</a></li>
+          <li><a href="#vision">Ecosystem</a></li>
+          <li><a href="#Platform">Platform</a></li>
+          <!-- <li style="display: none;"><a href="#solution">Payment</a></li> -->
+          <li><a href="#Team">Team&Advisor</a></li>
+          <!-- <li><a href="#Token">Token economy</a></li> -->
+          <li><a href="#Roadmap">Roadmap</a></li>
+          <!-- <li><a href="#Partner">Partner</a></li>   -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="home">
+      
+      <div id="title" class="" >
+        <h1><img src="img/eac_title.svg" alt=""/></h1>
+        <h2> </h2>
+      </div>
+      <div class="membership" style="display: none;">
+        <div id="button" class=""></div>
+          <a  href="" target="_blanc"><img src="img/wallet_link.png"></a>    
+         </div>
+       </div>
+     
+      <div class="download">
+        <h1 class="total_title" >  </h1>
+        <div id="button" class="">
+          <a  href="lib/wp(ko)_eac2.pdf" target="_blanc"><img src="img/wp_down.png"></a> 
+         
+
+       </div>
+</section>
+ 
+       
+      
+  </section>
+<!--	  wow fadeInUp-->
+	  
+    <section id="intro">
+
+        <h1 class="total_title" style="display:none;"> File Coin  </h1><br>
+        <div id="table">
+          <img src="img/intro-title.png">
+        </div>
+        <dl>
+          <dt>현재 글로벌 교육과 국내 교육의 문제점은 산업과 교육이 따로 움직이고 있다는 것입니다. <br>
+            19세기의 커리큘럼과 교육 환경 속에서 20세기의 교사가 21세기의 아이들을 가르치고 있는 것이 우리의 현실입니다.<br><br>
+            
+            일방적 정보 전달의 여전한 교육 방식과 급변하는 시대의 흐름을 반영하지 못하는 지식 중심의 교육 콘텐츠에 대한 문제가 지적되고 있으며, 더욱이 우리의 과거와 역사인 문화∙전통의 경우에도 배우고자 하는 학습자의 니즈는 많으나, 쉽고, 재미나게 체험하거나 배울 수 있는 디지털 매개체는 거의 없었다고 하는 판단입니다. 
+            
+            또한 우리는 환경 문제 의식 제고를 위한 환경 교육의 중요성을 피력할 필요가 있습니다. 
+            산업 사회의 기술 문명은 지구의 한계를 벗어난 자연 자원의 남용과 우리의 터전인 자연 환경을 훼손하는 결과를 가져왔습니다. 
+            인류 역사상 탄소 배출량이 최대치로 증가하면서 지구 가열(Global Heating)의 기후 위기(Climate Crisis)에 직면하고 있는 현실에서 여전히 기술 중심의 교육이 진행되고 있음에 문제 의식 제고와 해결 방안을 위한 환경 교육은 더 이상 지체할 수 없는 과제가 되었습니다.
+          </dt>
+        </dl>
+        <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+          <img src="img/intro-img.png" alt=""/></div>
+
+        <dl>
+          <dt>이 프로젝트의 첫 그림은, 2000년대부터 대중적으로 많이 부각이 되고 있는 K-Culture를 기반으로 시작하여 오픈이 될 예정이며, 유저가 지속적으로 늘어나는 성장 라이프 싸이클을 가질수 있도록 디자인하여, 향후 계획으로 세계 10개국으로 확장을 하는 프로젝트 계획을 담고 있습니다. </dt>
+        </dl>  
+        <span class="total_line" style="display: none;" ></span>
+
+              
+        
+       
+
+        <div id="filecoin_video" class="" style="display: none;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rt95gozRIy4" frameborder="0" allow="accelerometer; a utoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+         </div>
+        
+    </section>
+    <section id="Background">
+
+        <h1 class="total_title" style="display:none;"> File Coin  </h1><br>
+        <div id="table">
+          <img src="img/ecosystem.svg">
+        </div>
+        <dl>
+          <dt>학습을 도와줄 수 있는 기술이 개발이 되었는데도 불구하고, 여전히 오프라인 학습장, 개인 간의 수업, 또는 유튜브 같은 영상서비스 안에서 학습하는 것이 대부분입니다. </dt>
+        </dl>
+        <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+          <img src="img/eac_ecosystem.svg" alt=""/></div>
+
+        <dl>
+          <dt>이 프로젝트의 첫 그림은, 2000년대부터 대중적으로 많이 부각이 되고 있는 K-Culture를 기반으로 시작하여 오픈이 될 예정이며, 유저가 지속적으로 늘어나는 성장 라이프 싸이클을 가질수 있도록 디자인하여, 향후 계획으로 세계 10개국으로 확장을 하는 프로젝트 계획을 담고 있습니다. </dt>
+        </dl>  
+        <span class="total_line" style="display: none;" ></span>
+
+              
+        
+       
+
+        <div id="filecoin_video" class="" style="display: none;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rt95gozRIy4" frameborder="0" allow="accelerometer; a utoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+         </div>
+        
+    </section>
+    <section id="vision">
+
+        <h1 class="total_title" style="display:none;"> File Coin  </h1><br>
+        <div id="table">
+          <img src="img/ecosystem.svg">
+        </div>
+        <dl>
+          <dt>학습을 도와줄 수 있는 기술이 개발이 되었는데도 불구하고, 여전히 오프라인 학습장, 개인 간의 수업, 또는 유튜브 같은 영상서비스 안에서 학습하는 것이 대부분입니다. </dt>
+        </dl>
+        <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+          <img src="img/eac_ecosystem.svg" alt=""/></div>
+
+        <dl>
+          <dt>이 프로젝트의 첫 그림은, 2000년대부터 대중적으로 많이 부각이 되고 있는 K-Culture를 기반으로 시작하여 오픈이 될 예정이며, 유저가 지속적으로 늘어나는 성장 라이프 싸이클을 가질수 있도록 디자인하여, 향후 계획으로 세계 10개국으로 확장을 하는 프로젝트 계획을 담고 있습니다. </dt>
+        </dl>  
+        <span class="total_line" style="display: none;" ></span>
+
+              
+        
+       
+
+        <div id="filecoin_video" class="" style="display: none;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rt95gozRIy4" frameborder="0" allow="accelerometer; a utoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+         </div>
+        
+    </section>
+    <section id="Platform">
+
+      <h1 class="total_title" style="display:none;"> File Coin  </h1><br>
+      <div id="table">
+        <img src="img/platform.svg">
+      </div>
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+        <img src="img/eac_platform.svg" alt=""/></div>
+      <dl>
+        <dt>비대면의 일상화와 디지털 전환 가속화 속에 MZ세대는 글로벌 문화 트렌드를 주도하는 강력한 소비 주체로 급부상하고 있습니다. 그래서 우리는 독창적이고 경쟁력 있는 K-Culture의 전통문화와 대중문화 콘텐츠를 바탕으로 시간적, 물리적 공간을 디지털화해 Metaverse에 실현하여 시공간의 한계를 극복하고, 고부가가치를 창출하고자 하며, 향후 여러국가의 우수한 전통·대중 문화를 Culture Metasquare에 담아 전세계인이 향유하는 새로운 문화의 장을 만들 것입니다.</dt>
+
+      </dl>
+      
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+       <!--  <img src="img/eac_platform_1-1.svg" alt=""/> --></div>
+        <dl>
+          <!-- <dt>Stanford University에서 개발되어 사용되고 있는 Inquiry-based Learning Platform인 'SMILE'은 글로벌 교육 혁신의 중심 서비스입니다.</dt> -->
+        </dl>
+        <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+         <!--  <img src="img/eac_platform_1-2.svg" alt=""/> --></div>
+          <dl>
+            <!-- <dt>EAC PLATFORM PTE. LTD.는 각 학생들에 대한 진단없이 일방적이고 획일화된 교과서 중심의 기존의 오프라인/온라인 교육을 계획하고 있습니다. TOEST는 인공지능 기술을 통해 학생의 행동 패턴, 학습 습관, 교과 역량, 사고력 수준 등을 정확히 고려하여 맞춤으로 글로벌 최고 수준의 온라인 교육 콘텐츠를 제공해서 교육의 전체 프로세스를 혁신해 나가고 있습니다.</dt> -->
+          </dl>
+          <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+            <!-- <img src="img/eac_platform_1-3.svg" alt=""/> --></div>
+            <dl>
+              <!-- <dt>G-mento는 AI 기반 1:1 개인 맞춤형 커리어 코칭 플랫폼으로, 명문대학 선배의 진로 정보를 검색하고 멘토 및 코치와의 1:1 질문/답변을 통한 코칭 서비스 입니다. </dt> -->
+            </dl>
+
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+        <img src="img/eac_platform_1.svg" alt=""/></div>
+        <dl>
+          <dt></dt>
+        </dl>
+        
+      
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+        <img src="img/eac_platform_2.svg" alt=""/></div>
+      <dl>
+        <dt>         
+        </dt>
+      </dl>
+      <span class="total_line" style="display: none;" ></span>
+
+            
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+        <img src="img/eac_platform_3.svg" alt=""/></div>
+
+        <dl>
+          <dt>Meta-Economy서비스 레이어는 플랫폼 스스로가 성장이 가능하도록 생명을 불어넣는 유기체적인 역할을 제공하는 공유기반,유저기반의 서비스입니다. </dt>
+        </dl>
+        <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+          <img src="img/eac_platform_4.svg" alt=""/></div>
+          <dl>
+            <dt>M-Society의 핵심은 혼자만이 아니라 서로 협력하는 모습 안에서, 동료라는 커뮤니티의 개념을 배울 수 있는 교육서비스 구조입니다.
+            </dt>
+          </dl>
+          <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+            <img src="img/eac_platform_5.svg" alt=""/></div>
+            <dl>
+              <dt>플랫폼이 성장하고, 유지 발전하며, 플랫폼 안에서 활동하는 유저들의 왕성한 발전욕구를 자극하는 것으로 특별한 포인트 체계로 이루어진 서비스 레이어를 디자인 하였습니다.
+              </dt>
+            </dl>
+          <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+            <img src="img/eac_platform_6.svg" alt=""/></div>
+            <dl>
+              <dt>보다 더 진화된 플랫폼으로 만들기 위해 탈 중앙화 된 블록체인 기술을 활용한 문화 교육 기반의 서비스 플랫폼 입니다. META-Universe 블록체인 빠른 생태계 구축과 시행착오를 최소화하기 위해 핵심적인 기능을 지원하는 크로스체인 하도록 디자인 되었습니다.
+              </dt>
+            </dl>
+            <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+              <img src="img/eac_platform_7.svg" alt=""/></div>    
+              <dl>
+                <dt>플랫폼에서 제공되어진 모든 코인의 안전한 보관, 전송을 지원하는 지갑입니다. dApp기반으로 거래와 성금을 위한 기본적인 것 외에 추가로 다른 사용자(P2P)나 거래소를 코인 exchange를 위한 플랫폼도 v2.0에서 제공을 하여, 보다 원활하게 사용하는 MeXchange 플랫폼으로 진화할 예정입니다.
+                </dt>
+              </dl> 
+  </section>
+	  
+    <section id="solution" style="display: none;">
+
+        <h1 class="total_title"style="display:none;"> Platform  </h1><br>
+        <div id="table">
+          <img src="img/payment.svg">
+        </div>
+          <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+            <img src="img/" alt=""/></div>
+      
+  
+
+        <dl>
+          <dt> </dt>
+        </dl>
+           
+        <div id="fileworld_video" class="" style="display: none;">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/rQZJjmPbHwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+            
+    </section>
+    <section id="Team">
+          <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+            <img src="img/eac_team_2-5.png" alt=eac_team"/>            </div>
+           
+    
+    </section> 
+    <section id="Token" >
+      <div id="table">
+        <img src="img/token_economy.svg">
+      </div>
+      
+   <dl><dt></dt></dl>
+  
+      <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+          <img src="img/eac_token.svg" alt=""/></div>
+  </section>
+  
+  <section id="Roadmap">
+    <h1 class="total_title" style="display:none;"> File Coin Mining  </h1><br>
+    <div id="table">
+      <img src="img/roadmap.svg">
+    </div>
+    
+    <dl>
+      <dt>
+        </dt>
+    </dl>
+    <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <img src="img/eac_roadmap.svg" alt=""/></div>
+        
+</section>
+<section id="Partner">
+
+  <div id="table">
+    <img src="img/partners.svg">
+  </div>
+              <div id="table" class="box featured wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                  <div class="team">
+                    <img src="img/1.jpg">
+                  </div>
+                     <div class="team">
+                      <img src="img/2.jpg">
+                     </div>
+                     <div class="team">
+                      <img src="img/3.jpg">
+                     </div>
+                     <div class="team">
+                      <img src="img/4.jpg">
+                    </div>
+                     <div class="team">
+                      <img src="img/5.jpg"></div>
+                      <div class="team">
+                        <img src="img/6.jpg">
+                      </div>
+                     <div class="team">
+                      <img src="img/7.jpg">
+                    </div>
+                    <div class="team">
+                      <img src="img/8.jpg">
+                    </div>
+                    <div class="team">
+                      <img src="img/9.jpg">
+                    </div>
+                    <div class="team">
+                      <img src="img/10.jpg">
+                    </div>
+                    <div class="team">
+                      <img src="img/11.jpg">
+                    </div>
+                    <div class="team">
+                      <img src="img/12.jpg">
+                    </div>   
+                    <div class="team">
+                      <img src="img/13.jpg">
+                    </div> 
+                    <div class="team">
+                      <img src="img/14.jpg">
+                    </div> 
+                    <div class="team">
+                      <img src="img/15.jpg">
+                    </div> 
+                          
+                </div></div>
+      </section>
+  
+
+
+	  
+    <section id="contact">
+
+        <h1 class="total_title"> CONTACT  </h1><br>
+        <span class="total_line"></span>
+        <div id="map" class="box featured wow fadeInUp">
+          <div><h3>EAC Platform</h3>
+            
+      <br><br><h5>본사</h5>
+      111 SOMERSET ROAD #06-07E 111 SOMERSET SINGAPORE 238164<br><br><br><br>
+      <br><br>
+</div>
+            <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7911120840604!2d103.83510651514537!3d1.300168499051715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1990e8a47437%3A0x56a990c905f0c3e0!2zMTExIFNvbWVyc2V0IFJkLCAjMDYgMDdlIFRyaXBsZU9uZSBTb21lcnNldCwg7Iux6rCA7Y-s66W0IDIzODE2NA!5e0!3m2!1sko!2skr!4v1649986170484!5m2!1sko!2skr" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></iframe></div>
+</div>
+        <p>Copyrightⓒ 2022 EAC Platform.  All Rights Reserved.</p>
+        <p></p> 
+    
+
+
+    </section> 
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+		  
+	
+      
+      
+<!--  <footer id="footer">
+
+  </footer>-->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        </main>
+      
+        
+
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+
+  
+
+</body>
+</html>
